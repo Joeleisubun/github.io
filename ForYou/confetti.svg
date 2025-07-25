@@ -1,0 +1,29 @@
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .confetti-1 { fill: #ff6b6b; }
+      .confetti-2 { fill: #4ecdc4; }
+      .confetti-3 { fill: #45b7d1; }
+      .confetti-4 { fill: #f9ca24; }
+      .confetti-5 { fill: #6c5ce7; }
+    </style>
+  </defs>
+  
+  <!-- Different confetti shapes -->
+  <g>
+    <!-- Square -->
+    <rect x="2" y="2" width="4" height="4" class="confetti-1" transform="rotate(45 4 4)"/>
+    
+    <!-- Circle -->
+    <circle cx="14" cy="4" r="2" class="confetti-2"/>
+    
+    <!-- Triangle -->
+    <polygon points="10,8 8,12 12,12" class="confetti-3"/>
+    
+    <!-- Diamond -->
+    <polygon points="16,10 14,12 16,14 18,12" class="confetti-4"/>
+    
+    <!-- Star -->
+    <polygon points="6,16 7,14 9,14 7.5,12.5 8,10 6,11 4,10 4.5,12.5 3,14 5,14" class="confetti-5"/>
+  </g>
+</svg>

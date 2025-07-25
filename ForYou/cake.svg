@@ -1,0 +1,40 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cakeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffeaa7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fdcb6e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="frostingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ddd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cake Base -->
+  <rect x="10" y="35" width="60" height="35" rx="5" fill="url(#cakeGradient)" stroke="#d63031" stroke-width="2"/>
+  
+  <!-- Cake Layer 2 -->
+  <rect x="15" y="25" width="50" height="20" rx="3" fill="url(#cakeGradient)" stroke="#d63031" stroke-width="2"/>
+  
+  <!-- Frosting -->
+  <path d="M15 25 Q20 20, 25 25 Q30 20, 35 25 Q40 20, 45 25 Q50 20, 55 25 Q60 20, 65 25 L65 30 L15 30 Z" fill="url(#frostingGradient)"/>
+  
+  <!-- Candles -->
+  <rect x="25" y="15" width="3" height="10" fill="#74b9ff"/>
+  <rect x="35" y="12" width="3" height="13" fill="#74b9ff"/>
+  <rect x="45" y="15" width="3" height="10" fill="#74b9ff"/>
+  
+  <!-- Flames -->
+  <ellipse cx="26.5" cy="12" rx="2" ry="4" fill="#fd79a8"/>
+  <ellipse cx="36.5" cy="9" rx="2" ry="4" fill="#fd79a8"/>
+  <ellipse cx="46.5" cy="12" rx="2" ry="4" fill="#fd79a8"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="25" cy="40" r="3" fill="#e84393"/>
+  <circle cx="40" cy="45" r="3" fill="#e84393"/>
+  <circle cx="55" cy="40" r="3" fill="#e84393"/>
+  
+  <!-- Cherry on top -->
+  <circle cx="40" cy="28" r="2" fill="#d63031"/>
+  <path d="M40 26 Q42 24, 44 26" stroke="#00b894" stroke-width="1.5" fill="none"/>
+</svg>
